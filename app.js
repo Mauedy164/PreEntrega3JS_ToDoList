@@ -24,6 +24,7 @@
  function createTaskElement (task) {
     const listItem = document.createElement("li");
     listItem.textContent=task; 
+    listItem.className= "doTask";
     const deleteButton = document.createElement("button");
     deleteButton.textContent= "Borrar";
     deleteButton.className= "deleteTask";
