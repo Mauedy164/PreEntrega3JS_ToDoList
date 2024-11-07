@@ -47,7 +47,8 @@
     
     margin: 10px;
     color: white;
-    width: 200px;
+    width: 500px;
+    border-radius: 15px;
 }
 
 #taskList{
@@ -55,9 +56,14 @@
 }
 
 .doTask{
+    display: flex;
+    justify-content: space-between;
     padding-left: 5px;
+    margin-bottom: 5px;
+    
 }
 
 .deleteTask{
-    margin-left: 100px;
+    display: flex;
+    align-items: flex-end;
 }
