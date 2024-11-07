@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    display: grid;
+    justify-self: center;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+#taskInput{
+    justify-content: center;
+    padding: 10px;
+}
+
+#addTask {
+    justify-content: center;
+    background-color: #00aafe;
+    color: white;
+    padding: 0 10px;
+    border: 0;
+    font-size: 30px;
+}
